@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Major+Mono+Display&display=swap');
+/* font-family: 'IBM Plex Mono', monospace;
+font-family: 'Major Mono Display', monospace; */
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #0a192f;
+
+}
+.site-body{
+  position: relative;
+}
+
+
+
+
+
+/*Navbar*/
+.nav-bar{
+    /* background-color: #64FFDA; */
+    color: #64FFDA;
+    box-shadow: 0px 2px 5px #CCD6F6;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+  
+  }
+  .navbar-brand{
+    margin-right: 350px;
+    font-weight: 500;
+    font-size: 20pt;
+    color: #64FFDA;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  .navbar-brand a{
+      text-decoration: none;
+      color: #64FFDA;
+  }
+  .my-logo{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .navbar-links{
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 10px;
+  }
+  .nav-link{
+    font-size: 14pt;
+    margin: 0 10px;
+    color: #CCD6F6;
+  }
+  .nav-link:hover{
+    text-decoration: overline;
+  }
+  .nav-link > span{
+    color: #64FFDA;
+  }
+  .button-navbar{
+    background-color: #64FFDA;
+  }
+
+
+ /*Main*/
+  .contact-inside{
+    padding: 70px;
+    color: #CCD6F6;
+    text-align: center;
+  }
+  .contact-inside h3{
+    font-size: 36pt;
+    margin-bottom: 50px;
+  }
+  .contact-details{
+    font-size: 14pt;
+  }
+  .thank-you{
+    font-size: 16pt;
+  }
+  .contact-inside button{
+    margin-bottom: 20px;
+    background-color: blue;
+    padding: 20px 40px;
+    font-size: 14pt;
+    color: #CCD6F6;
+    outline: none;
+    border: none;
+    box-shadow: 8px 6px #64FFDA;
+    font-weight: bold;
+  }
+  .contact-inside button:hover{
+    box-shadow: 15px 15px #64FFDA;
+    cursor: pointer;
+  }
+ 
+
+
+
+  /*Social Media*/
+.socials{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .socials img{
+    width: 50px;
+    margin-right: 10px;
+  }
+  .socials img:hover{
+    width: 70px;
+  }
+
+
+
+
+  /* Footer
+  .footer small{
+    margin: 10px;
+    text-align: center;
+    color: #CCD6F6;
+    bottom: 0;
+  }
+  .footer small a{
+    color: #CCD6F6;
+  } */
+  
